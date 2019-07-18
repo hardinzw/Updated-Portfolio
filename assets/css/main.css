@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -86,15 +80,15 @@ input, select, textarea {
 		background: #fff;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
 		}
 
 	body, input, select, textarea {
@@ -112,12 +106,13 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
-		text-decoration: none;
+		text-decoration: none !important;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: rgba(248, 59, 1, 0.925) !important;
+			color: #F3360B !important;
+			text-decoration: none !important;
 		}
 
 	strong, b {
@@ -1785,8 +1780,9 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: rgba(255, 51, 0, 0.897);
-		font-size: 3.5em;
+		color: #F3360B;
+		font-size: 3em;
+		text-shadow: 2px 2px #aaa;
 	}
 
 		header.major h2 + p {
@@ -2190,6 +2186,7 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+			border: solid 2px white;
 		}
 	
 		.image.avatar img {
@@ -2205,7 +2202,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				border-radius: 0;
+			border-radius: 0;
 			}
 
 /* List */
@@ -2425,7 +2422,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 3em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2435,6 +2432,25 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 2.5em;
 			}
+			ul.project-icons {
+				cursor: default;
+				list-style: none;
+				padding-left: 0;
+			}
+			
+			ul.project-icons li {
+				display: inline-block;
+				padding: 0 2.5em 0 0;
+				
+			}
+			
+				ul.project-icons li:last-child {
+					padding-right: 0 !important;
+				}
+			
+				ul.project-icons li {
+					font-size: 1.5em;
+				}
 
 /* Table */
 
@@ -2836,6 +2852,7 @@ input, select, textarea {
 			border-top: 0;
 		}
 
+
 /* Footer */
 
 	#footer {
@@ -3076,7 +3093,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: rgba(255, 51, 0, 0.897);
+						background: #F3360B;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
