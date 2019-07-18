@@ -2383,6 +2383,7 @@ input, select, textarea {
 			position: relative;
 			vertical-align: top;
 			width: 48%;
+			font-size: 1.25em;
 		}
 
 			ul.feature-icons li:before {
@@ -2450,6 +2451,7 @@ input, select, textarea {
 			
 				ul.project-icons li {
 					font-size: 1.5em;
+					
 				}
 
 /* Table */
