@@ -21,5 +21,6 @@ Update professional image.
 eliminate underlines from project link icons.
 update footer.
 update skill sets.
+update resume
 
 
