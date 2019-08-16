@@ -127,6 +127,7 @@
 					'<a href="#header" class="toggle"></a>' +
 					'<span class="title">' + $('#logo').html() + '</span>' +
 				'</div>'
+				
 			)
 				.appendTo($body);
 
