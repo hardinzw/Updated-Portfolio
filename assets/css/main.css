@@ -2455,6 +2455,10 @@ input, select, textarea {
 					font-size: 1.5em;
 					
 				}
+	
+	.resume-link {
+		color: #F3360B
+	}
 
 /* Table */
 
