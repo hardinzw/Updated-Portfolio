@@ -738,7 +738,7 @@
 
 		&.main {
 			display: block;
-			height: 20em;
+			height: 24em;
 			border-radius: 0;
 
 			img {
@@ -1375,6 +1375,12 @@
 				}
 			}
 
+		/* Image */
+
+			.image.main {
+				height: 22em;
+			}
+
 	}
 
 /* Large */
@@ -1404,6 +1410,12 @@
 				@else {
 					padding-left: $size-header;
 				}
+			}
+
+		/* Image */
+
+			.image.main {
+				height: 20em;
 			}
 
 	}
@@ -1439,7 +1451,7 @@
 				}
 
 				&.main {
-					height: 20em;
+					height: 16em;
 				}
 			}
 
@@ -1621,7 +1633,7 @@
 				}
 
 				&.main {
-					height: 12em;
+					height: 13em;
 				}
 			}
 
@@ -1768,6 +1780,12 @@
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+		/* Image */
+
+			.image.main {
+				height: 11em;
 			}
 
 		/* List */
